@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #444;
+}
+
+html{
+    font-size: 14px;
+}
+
+main{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+#loading{
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 100px;
+    height: 100px;
+    display: none;
+}
+
+#search_info{
+    width: 30%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#search_info input{
+    border: 10px solid #30A8DC;
+}
+
+#search_info #btn_search{
+    background-color: #30A8DC;
+    color: white;
+    width: 100%;
+    margin-top: 15px;
+    cursor: pointer;
+    text-align: center;
+    padding: 8px;
+    border-radius: 15px;
+    font-size: 1.2rem;
+}
+
+#search_info #btn_search:hover{
+    background-color: white;
+    color: #30A8DC;
+    border: 2px solid #30A8DC;
+}
+
+#student_info_sheet{
+    width: 65%;
+}
+
+header{
+    width: 100%;
+    text-align: center;
+    padding: 13px;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+input{
+    border: none;
+    border-bottom: 2px solid grey;
+    border-left: 10px solid #30A8DC;
+    padding: 8px;
+    border-radius: 5px;
+    outline: none;
+    width: 100%;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.row_label{
+    width: 40%;
+}
+
+label{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.student_photo{
+    width: 30%;
+    height: 200px;
+    border: 5px solid #30A8DC;
+}
+
+.student_photo img{
+    width: 100%;
+    height: 100%;
+}
+
+.student_username{
+    width: 40%;
+}
+
+.primary_info{
+    height: 250px;
+}
+
+.section_title{
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.sub_title{
+    margin-bottom: 8px;
+}
